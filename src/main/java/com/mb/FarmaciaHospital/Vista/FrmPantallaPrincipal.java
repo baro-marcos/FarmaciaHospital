@@ -55,7 +55,7 @@ public class FrmPantallaPrincipal extends JFrame {
 		
 		setFont(new Font("Dialog", Font.BOLD, 14));
 		setTitle("Farmacia");
-		setIconImage(Toolkit.getDefaultToolkit().getImage(FrmPantallaPrincipal.class.getResource("/com/mb/FarmaciaHospital/Imagenes/farmacia_1616.png")));
+		//setIconImage(Toolkit.getDefaultToolkit().getImage(FrmPantallaPrincipal.class.getResource("/com/mb/FarmaciaHospital/Imagenes/farmacia_1616.png")));
 		//setExtendedState(MAXIMIZED_BOTH);
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
