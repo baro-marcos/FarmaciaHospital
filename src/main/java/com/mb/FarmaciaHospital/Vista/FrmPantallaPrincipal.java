@@ -1,16 +1,14 @@
 package com.mb.FarmaciaHospital.Vista;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import java.awt.Toolkit;
+import java.awt.EventQueue;
 import java.awt.Font;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JMenu;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.util.Date;
 import java.util.List;
 import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
@@ -25,7 +23,7 @@ import com.mb.FarmaciaHospital.Utilidad.Utilidades;
 */
 
 public class FrmPantallaPrincipal extends JFrame {
-
+	
 	private static final long serialVersionUID = 1L;
 	
 	// Variables estaticas para controlar las instancias abiertas de los JDialogs
@@ -55,7 +53,7 @@ public class FrmPantallaPrincipal extends JFrame {
 		
 		setFont(new Font("Dialog", Font.BOLD, 14));
 		setTitle("Farmacia");
-		//setIconImage(Toolkit.getDefaultToolkit().getImage(FrmPantallaPrincipal.class.getResource("/com/mb/FarmaciaHospital/Imagenes/farmacia_1616.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/farmacia_1616.png")));
 		//setExtendedState(MAXIMIZED_BOTH);
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

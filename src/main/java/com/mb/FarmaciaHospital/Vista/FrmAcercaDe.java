@@ -39,7 +39,7 @@ public class FrmAcercaDe extends JDialog {
 		
 		// El segundo parametro 'true' hace que el JDialog sea modal
         super(parent, "Acerca de...", true);
-        setIconImage(Toolkit.getDefaultToolkit().getImage(FrmAcercaDe.class.getResource("/com/mb/FarmaciaHospital/Imagenes/info_1616.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/info_1616.png")));
         setResizable(false);
         
         setLocationRelativeTo(parent); // Centrar el JDialog sobre el JFrame

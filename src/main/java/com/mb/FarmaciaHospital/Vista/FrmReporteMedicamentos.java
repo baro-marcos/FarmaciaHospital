@@ -53,7 +53,7 @@ public class FrmReporteMedicamentos extends JDialog {
         
         setLocationRelativeTo(parent); // Centrar el JDialog sobre el JFrame
         
-        setIconImage(Toolkit.getDefaultToolkit().getImage(FrmReporteMedicamentos.class.getResource("/com/mb/FarmaciaHospital/Imagenes/medicamento_1616.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/medicamento_1616.png")));
         setResizable(false);
 		
 		setBounds(100, 100, 866, 640);

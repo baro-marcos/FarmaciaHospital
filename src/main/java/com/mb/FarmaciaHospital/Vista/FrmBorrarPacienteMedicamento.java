@@ -54,7 +54,7 @@ public class FrmBorrarPacienteMedicamento extends JDialog {
         
         setLocationRelativeTo(parent); // Centrar el JDialog sobre el JFrame
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(FrmBorrarPacienteMedicamento.class.getResource("/com/mb/FarmaciaHospital/Imagenes/pacientes.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/pacientes.png")));
 		
 		setTitle("Borrar Paciente - Medicamento");
 		setResizable(false);

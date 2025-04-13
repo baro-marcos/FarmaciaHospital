@@ -54,7 +54,7 @@ public class FrmBorrarPaciente extends JDialog {
 				
 		setResizable(false);
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(FrmCargaPaciente.class.getResource("/com/mb/FarmaciaHospital/Imagenes/pacientes.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/pacientes.png")));
 		setTitle("Borrar Paciente");
 		
 		setBounds(100, 100, 400, 251);

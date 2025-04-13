@@ -52,7 +52,7 @@ public class FrmActualizarMedicamento extends JDialog {
 		
 		setTitle("Actualizar Medicamento");
 		setResizable(false);
-		setIconImage(Toolkit.getDefaultToolkit().getImage(FrmActualizarMedicamento.class.getResource("/com/mb/FarmaciaHospital/Imagenes/medicamento_1616.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/medicamento_1616.png")));
 		setBounds(100, 100, 771, 508);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));

@@ -66,7 +66,7 @@ public class FrmActualizarPaciente extends JDialog {
 		
 		setResizable(false);
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(FrmCargaPaciente.class.getResource("/com/mb/FarmaciaHospital/Imagenes/pacientes.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/pacientes.png")));
 		setTitle("Actualizar Paciente");
 		setBounds(100, 100, 567, 473);
 		getContentPane().setLayout(new BorderLayout());

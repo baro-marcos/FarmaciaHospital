@@ -56,8 +56,7 @@ public class FrmBorrarMedicamento extends JDialog {
         setLocationRelativeTo(parent); // Centrar el JDialog sobre el JFrame
 
 		setTitle("Borrar Medicamento");
-		setIconImage(Toolkit.getDefaultToolkit().getImage(
-				FrmBorrarMedicamento.class.getResource("/com/mb/FarmaciaHospital/Imagenes/medicamento_1616.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/medicamento_1616.png")));
 		setResizable(false);
 		setBounds(100, 100, 814, 362);
 		getContentPane().setLayout(new BorderLayout());

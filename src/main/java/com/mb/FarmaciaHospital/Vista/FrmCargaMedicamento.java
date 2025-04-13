@@ -53,7 +53,7 @@ public class FrmCargaMedicamento extends JDialog {
         
         setLocationRelativeTo(parent); // Centrar el JDialog sobre el JFrame
 	
-		setIconImage(Toolkit.getDefaultToolkit().getImage(FrmCargaMedicamento.class.getResource("/com/mb/FarmaciaHospital/Imagenes/medicamento_1616.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/medicamento_1616.png")));
 		setResizable(false);
 		setTitle("Carga de Medicamento");
 		setBounds(100, 100, 690, 242);
